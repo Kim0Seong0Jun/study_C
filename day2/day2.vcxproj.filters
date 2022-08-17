@@ -21,5 +21,8 @@
     <ClCompile Include="day2_self_studt.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="if문 예제.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

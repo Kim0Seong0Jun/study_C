@@ -1,4 +1,4 @@
-# C언어 windows <-> masOS 서로 사용방법
+# C언어 windows <-> masOS 사용
 
 주로 윈도우에서 코드를 처음 짠다음 맥에서 연습을 함. 
 

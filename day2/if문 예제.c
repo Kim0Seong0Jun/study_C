@@ -175,6 +175,7 @@ int main(void)
 		printf("2의 배수입니다.");
 	}
 		
+	printf("Hi!!");
 	
 	
 

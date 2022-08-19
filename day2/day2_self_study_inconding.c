@@ -3,7 +3,6 @@
 
 int main(void)
 {
-	/*printf("반갑다. C언어.\n");*/
 			// 식과 연산자 예제문
 	/* 예제문 2번
 	int H, W;	//H = 한변, W = 넓이
@@ -284,7 +283,7 @@ int main(void)
 	}
 	printf("a : %d\n", a);*/
 
-	int num, sum = 0, i;
+	/*int num, sum = 0, i;
 	printf("몇까지의 합계를 계산할까요 ??" );
 	scanf("%d", &num);
 	for (i = 1; i <= num; i++)
@@ -292,8 +291,80 @@ int main(void)
 		sum += i;	// 누적합계
 		printf("%d\n", sum);
 	}
-	printf("1부터 %d의 합계는 %d입니다.", num, sum);
+	printf("1부터 %d의 합계는 %d입니다.", num, sum);*/
 
+	/*int res, i;
+	printf("몇 번째 루프를 중지할까요?? (1 ~ 10)\n");
+	scanf("%d", &res);
+	for (i = 1; i <= 10; i++)
+	{
+		printf("%d번째 처리 합니다. \n", i);
+		if (i == res)
+		break;
+	}*/
+
+
+			// ------------ break 문 ------------
+
+	/*int res;
+	printf("성적을 입력하세요. (1 ~ 5)\n");
+	scanf("%d", &res);
+
+	switch (res)
+	{
+	case 1:
+		printf("재시험 입니다. \n");
+		break;
+	case 2:
+		printf("조금 더 노력하세요. \n");
+		break;
+	case 3:
+		printf("노력하세요 \n");
+		break;
+	case 4:
+		printf("잘했습니다 \n");
+		break;
+	case 5:
+		printf("매우 잘하셨습니다. \n");
+		break;
+	default:
+		printf("1 ~ 5까지의 성적을 입력하세요. \n");
+		break;
+	}*/
+
+			// ------------ continue 문 ------------
+	/*int res, i;
+	printf("몇 번째 처리를 건너뛸까요?? ");
+	scanf("%d", &res);
+
+	for (i = 1; i <= 10; i++)
+	{
+		if (i == res)
+		continue;
+		printf("%d번째 처리입니다. \n", i);
+	}*/
+
+	/*int res, i;
+	printf("몇 번째 처리를 건너뛸래?? : ");
+	scanf("%d", &res);
+	for (i = 1; i <= 10; i++)
+	{
+		if (i == res)
+		continue;
+		printf("%d번째 처리를 합니다.\n", i);
+	}*/
+
+
+			// 이게 뭐지 ;; 
+	/*int num; 
+	printf("start! \n");
+	for (num = 1; num < 20; num++)
+	{
+		if (num % 2 == 0 || num % 3 == 0)
+		continue;
+		printf("%d \n", num);
+	}
+	printf("end! \n");*/
 
 
 	return 0;

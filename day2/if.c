@@ -629,8 +629,5 @@ int main(void)
 
 	// 다음 수업전까지 if문 더 연습하고 오기 ! !
 
-	// 왜구램;; 
-	printf("안녕");
-
 	return 0;
 }

@@ -1,4 +1,6 @@
 ﻿#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 #define print printf
 
 int main(void)
@@ -365,6 +367,47 @@ int main(void)
 		printf("%d \n", num);
 	}
 	printf("end! \n");*/
+
+
+
+			//		UP and DOWN game
+	srand(time(NULL));
+	int num = rand() % 100 + 1;
+	printf("%d", num);
+	int answer = 0;		// 정답
+	int	chance = 5;		// 기회
+	
+	while (chance > 0)
+	{
+		printf("숫자를 맞혀보세요 (1 ~ 100) : \n\n");
+		printf("기회는 %d번 입니다.", chance--);
+		scanf("%d", &answer);
+
+		if (answer > num)
+		{
+			printf("DOWN!!\n\n");
+		}
+		else if (answer < num)
+		{
+			printf("UP!!!\n\n");
+		}
+		else if (answer == num)
+		{
+			printf("정답입니다!!\n\n");
+			break;
+		}
+		else
+		{
+			printf("오류입니다.");
+		}
+
+		if (chance == 0)
+		{
+			printf("기회를 다 소진하였습니다. 실패했습니다. \n\n");
+			break;
+		}
+
+	}
 
 
 	return 0;

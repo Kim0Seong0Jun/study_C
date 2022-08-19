@@ -233,8 +233,68 @@ int main(void)
 		break;
 	}*/
 	
+	/*int i = 1;
+	while (i <= 7)
+	{
+		printf("%d번 학생은 멍청이 ~ \n", i);
+		i++;
+	}
+	printf("다음주에는 천재가 될거에요 ~ ");*/
 	
-	
+	/*int a = 1;
+	while (a < 10)
+	{
+		a *= 2;
+		printf("%d\n", a);
+	}
+	printf("a의 답은 ? : %d\n", a);*/
+
+	/*int dan = 0, num = 1;
+	printf("몇단 ? : ");
+	scanf("%d", &dan);
+	while (num < 10)
+	{
+		printf("%d * %d = %d \n", dan, num, dan * num);
+		num++;
+	}*/
+
+	/*int dan = 0, num = 1;
+	printf("몇단을 보여줄까요?? : ");
+	scanf("%d", &dan);
+	while (num < 10)
+	{
+		printf("%d * %d = %d\n", dan, num, dan * num);
+		num++;
+	}
+	printf("프로그램은 종료합니다.");*/
+
+	/*int i;
+	for (i = 1; i <= 5; i++)
+	{
+		printf("%d만큼 반복을 하고 있습니다. \n", i);
+	}
+	printf("반복을 종료합니다.\n");*/
+
+	/*int a = 1;
+	int i;
+	for (i = 0; i < 3; i++)
+	{
+		a *= 2;			// 1*2 -> 2*2 -> 4*2 최종적으로 8임
+		printf("%d\n", a);
+	}
+	printf("a : %d\n", a);*/
+
+	int num, sum = 0, i;
+	printf("몇까지의 합계를 계산할까요 ??" );
+	scanf("%d", &num);
+	for (i = 1; i <= num; i++)
+	{
+		sum += i;	// 누적합계
+		printf("%d\n", sum);
+	}
+	printf("1부터 %d의 합계는 %d입니다.", num, sum);
+
+
 
 	return 0;
 }

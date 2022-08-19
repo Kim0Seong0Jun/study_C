@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main_if_example(void)
 {
 		/*키가 187.5cm이상이고 몸무게가 80.0kg 미만이면서 OK를 출력하고 
 		그 이외의 경우에는 cancle을 출력하는 프로그램을 작성하세요. 

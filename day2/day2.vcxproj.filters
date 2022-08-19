@@ -18,13 +18,13 @@
     <ClCompile Include="if.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="day2_self_studt.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="if_example.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="day2_self_study_inconding.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="function.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

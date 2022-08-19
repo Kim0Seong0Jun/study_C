@@ -3,6 +3,15 @@
 #include <stdlib.h>
 #define print printf
 
+	// 함수 선언
+void p(int num);
+int add(int num, int num2);
+int sub(int num, int num2);
+int mul(int num, int num2);
+int did(int num, int num2);
+
+
+
 int main(void)
 {
 			// 식과 연산자 예제문
@@ -371,7 +380,7 @@ int main(void)
 
 
 			//		UP and DOWN game
-	srand(time(NULL));
+	/*srand(time(NULL));
 	int num = rand() % 100 + 1;
 	printf("%d", num);
 	int answer = 0;		// 정답
@@ -407,8 +416,71 @@ int main(void)
 			break;
 		}
 
-	}
+	}*/
+
+	// function
+
+		// 함수 사용 -> void p(int num)
+	
+
+	/*int num = 2;
+	printf("num 은 %d 입니다. \n", num);
+	p(num);
+
+	num = num + 3;
+	//printf("num 은 %d 입니다.\n", num);
+	p(num);
+
+	num -= 1;
+	//printf("num 은 %d 입니다.\n", num);
+	p(num);
+
+	num *= 3;
+	//printf("num 은 %d 입니다. \n", num);
+	p(num);
+
+	num /= 6;
+	//printf("num 은 %d 입니다. \n", num);
+	p(num); */
+	
+	/*int num = 2;
+	num = add(num, 3);
+	p(num);
+
+	num = sub(num, 1);
+	p(num);
+
+	num = mul(num, 3);
+	p(num);
+
+	num = did(num, 6);
+	p(num);*/
+
+	
 
 
 	return 0;
+}
+
+//	정의 (함수)
+void p(int num)
+{
+	printf("num은 %d 입니다. \n", num);
+}
+
+int add(int num, int num2)
+{
+	return num + num2;
+}
+int sub(int num, int num2)
+{
+	return num - num2;
+}
+int mul(int num, int num2)
+{
+	return num * num2;
+}
+int did(int num, int num2)
+{
+	return num / num2;
 }

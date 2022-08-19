@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define print printf
 
-int main(void)
+int main_if(void)
 {
 	// 강의 8월 13일 -> 오늘은 아마 if문 배우는 듯. 
 	

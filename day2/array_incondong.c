@@ -5,7 +5,7 @@
 #define NUM 5
 
 
-int main(void)
+int main_array(void)
 {
 	/*int res, i;
 	printf("몇 번째 루프를 중지할까요.?? (1 ~ 10)\n");
